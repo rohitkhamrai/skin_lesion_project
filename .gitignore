@@ -1,0 +1,22 @@
+# Ignore the Python virtual environment
+venv/
+
+# Ignore all data folders
+all_images/
+data/
+data_multiclass/
+
+# Ignore saved models
+*.keras
+
+# Ignore datasets
+*.csv
+*.zip
+
+# Ignore Python cache files
+__pycache__/
+
+# Ignore image files
+*.png
+*.jpg
+*.jpeg
