@@ -6,7 +6,7 @@ IMG_HEIGHT = 224
 IMG_WIDTH = 224
 BATCH_SIZE = 32
 EPOCHS = 15
-DATA_DIR = 'data_multiclass/train' # Using the new data folder
+DATA_DIR = '../data_multiclass/train' # Change this line
 
 # --- 1. Load Data ---
 print("\nLoading multi-class dataset...")

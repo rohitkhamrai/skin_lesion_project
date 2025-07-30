@@ -4,9 +4,9 @@ import shutil
 
 print("Organizing dataset for multi-class classification...")
 # --- Configuration ---
-csv_path = 'HAM10000_metadata.csv'
-source_dir = 'all_images'
-destination_dir = 'data_multiclass/train' 
+csv_path = '../HAM10000_metadata.csv' # Change this line
+source_dir = '../all_images'           # Change this line
+destination_dir = '../data_multiclass/train' # Change this line
 
 # --- Script Logic ---
 metadata = pd.read_csv(csv_path)
